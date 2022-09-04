@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  background: #6bbef2;
+  min-height: 6rem;
+}
+
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border: none;
+}
+
+.nav-item > a {
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  border: none;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.nav-item a:hover {
+  border: none;
+  color: darkred;
+}
+
+.cart > svg {
+  width: 30px;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.menu-container {
+  border-top: 1px solid #ccc;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  /* max-width: 150px; */
+  margin: auto 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slogan {
+  margin: 0.5rem 3rem;
+}
+
+.main-contacts {
+  display: flex;
+  flex-direction: row;
+  margin: auto 2rem auto 0;
+  font-size: 14pt;
+}
+
+.top-line {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.bordered {
+  border-right: 1px solid brown;
+  padding-right: 1rem;
+}
+
+.bottom-line {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 1rem;
+  border-bottom: none;
+}
+
+hr {
+  margin: 0.5px;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: lightcoral;
+}
+
+.logo {
+  margin-left: 0rem;
+}
+
+@media (min-width: 760px) and (max-width: 1300px) {
+  .second-phone {
+    display: none;
+  }
+}
+.main-navigation__drawer-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 0.5rem;
+  border-bottom: none;
+  font-size: 2.5rem;
+}
+
+.main-navigation__drawer-nav li {
+  list-style: none;
+  margin-top: 2rem;
+  padding: 0;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-navigation__drawer-nav a {
+  color: #495057;
+}

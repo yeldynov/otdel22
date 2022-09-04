@@ -1,0 +1,49 @@
+.summary {
+  text-align: center;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 14px;
+  padding: 2rem;
+  /* box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25); */
+}
+
+.summary h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 28pt;
+  color: grey;
+}
+
+.summary Button {
+  margin: 1rem;
+}
+
+.top-paragraph {
+  margin: 0 20%;
+  text-align: center;
+  font-size: 16pt;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+}
+
+.bottom-paragraph {
+  margin: 20px 100px 0 100px;
+  text-align: center;
+  font-size: 15pt;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  color: grey;
+  line-height: 40px;
+}
+
+@media (max-width: 768px) {
+  .bottom-paragraph {
+    display: none;
+  }
+}
